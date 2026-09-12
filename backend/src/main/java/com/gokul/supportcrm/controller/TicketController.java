@@ -17,7 +17,7 @@ import com.gokul.supportcrm.service.TicketService;
 
 @RestController
 @RequestMapping("/api/tickets")
-@CrossOrigin(origins="http://localhost:5173")
+@CrossOrigin(origins="https://support-crm-woad.vercel.app")
 public class TicketController {
 
     private final TicketService ticketService;
